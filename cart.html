@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Cart </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+        <div id="nav">
+          <div class="logo">
+            <img src="images/logo.png" alt="">
+          </div>
+          <i id="bars" class="fa-solid fa-bars"></i>
+          <ul id="#navRight">
+            <li><i  id="cancel" class="fa-solid fa-xmark"></i></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li id="homeLi"><i id="bag" class="fa-solid fa-bag-shopping"></i></li>
+          </ul>
+      </nav>
+  </header>
+
+
+
+<!-- -------------------BANNER PART--------------- -->
+
+
+  <section id="page-header" class="about-header">
+    <h2>#Let's_Talk</h2>
+    <h6>LEAVE A MESSAGE, We love to hear from you </h6>
+    </section>
+
+
+
+<!-- --------------------CART SECTION----------- -->
+
+<section id="cart">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><i class="far fa-times circle"></i></a></td>
+                <td><img src="images/products/f1.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$80.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$80.19</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times circle"></i></a></td>
+                <td><img src="images/products/f2.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$89.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$89.19</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times circle"></i></a></td>
+                <td><img src="images/products/f3.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$101.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$101.19</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+<!-- ----------------- COUPAN SECTION------------- -->
+
+<section id="cart-add">
+<div id="coupon">
+    <h3>Apply Coupon</h3>
+    <div>
+        <input type="text" placeholder="Enter Your Coupon">
+        <button class="normal">Apply</button>
+    </div>
+</div>
+<div id="subtotal">
+    <h3>Cart Total</h3>
+    <table>
+        <tr>
+            <td>Cart Subtotal</td>
+            <td>$335</td>
+        </tr>
+        <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+        </tr>
+        <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$335</strong></td>
+        </tr>
+    </table>
+    <button class="order">Proceed to Checkout</button>
+</div>
+</section>
+    
+<!-- --------------------FOOTER PART---------------------- -->
+
+<footer>
+<section class="same section1">
+  <img src="images/logo.png" alt="">
+  <h3 class="bold">Contact</h3>
+  <h4 class="bold">Address: <span>562 Wellington Road Street 32 San Francisco</span></h4>
+  <h4 class="bold">Phone: <span>+01 2222 365 /(+9)0123456789</span></h4>
+  <h4 class="bold">Hours: <span>10:00 - 18:00 Mon-Sat</span></h4>
+  <div class="followOn">
+    <h3>Follow Us</h3>
+    <div class="icons">
+      <i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i><i class="fa-brands fa-pinterest"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+  </div>
+</section>
+
+<section class="same section2">
+  <h3>About</h3>
+  <h4>About Us</h4>
+  <h4>Delivery Information</h4>
+  <h4>Privacy Policy</h4>
+  <h4>Terms & Conditions</h4>
+  <h4>Contact Us</h4>
+</section>
+<section class="same section3">
+  <h3>My Account</h3>
+  <h4>Sign In</h4>
+  <h4>View Cart</h4>
+  <h4>My Watchlist</h4>
+  <h4>Tract My Order</h4>
+  <h4>Help</h4>
+</section>
+<section class="same section4">
+  <h3>Install App</h3>
+  <h4>From App Store or Google Play</h4>
+  <div class="img">
+    <img src="images/pay/app.jpg" alt="">
+    <img src="images/pay/play.jpg" alt="">
+  </div>
+  <h4>Secured Payment Gateways</h4>
+  <div class="pay">
+  <img src="images/pay/pay.png" alt="">
+  </div>
+</section>
+</footer>
+<div class="border">
+  <h4>@2023. Tech2etc - HTML CSS Ecommerce Template</h4>
+</div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+    integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://kit.fontawesome.com/03f1af4bf2.js" crossorigin="anonymous"></script>
+  <script src="js.js"></script>
+</body>
+
+</html>
